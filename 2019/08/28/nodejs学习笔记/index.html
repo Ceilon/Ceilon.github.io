@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.9.0">
+	<link rel="bookmark" type="image/x-icon" href="/img/littleDog.jpg">
+	<link rel="shortcut icon" href="/img/littleDog.jpg">
+	
+			    <title>
+    Ceilon's blog
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    <meta name="keywords" content="ceilon 柴泷">
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/background.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">Celion</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/代码/">代码</a></li><li><a class="category-link" href="/categories/笔记/">笔记</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">归档</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="archive-link" href="/archives/2019/10/">十月 2019</a></li><li><a class="archive-link" href="/archives/2019/08/">八月 2019</a></li><li><a class="archive-link" href="/archives/2019/07/">七月 2019</a>
+	                    </li></ul>
+	        </li>
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/Ceilon/Ceilon.github.io" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>nodejs学习笔记</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h3 id="1-起步"><a href="#1-起步" class="headerlink" title="1.起步"></a>1.起步</h3><hr>
+<h4 id="1-1-安装node环境"><a href="#1-1-安装node环境" class="headerlink" title="1.1 安装node环境"></a>1.1 安装node环境</h4><ul>
+<li>下载地址:<a href="https://nodejs.org/en/download" title="地址" target="_blank" rel="noopener">nodejs.org</a></li>
+<li>安装:一顿next</li>
+<li>确认安装成功 <code>node -v</code></li>
+<li></li>
+</ul>
+<h4 id="1-2执行"><a href="#1-2执行" class="headerlink" title="1.2执行"></a>1.2执行</h4><ul>
+<li><p>用命令行执行js文件<code>node hellowWorld.js</code> 其中hellowWorld.js为执行的文件名，<strong>命令行定位到文件所在的文件夹中</strong>,文件命名不能是<em>node.js</em></p>
+</li>
+<li><p>没有BOM,DOM</p>
+</li>
+<li><p>nodejs具有读写文件的能力,引入fs,就能获取关于操作文件的api</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> fs=<span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//1.读文件</span></span><br><span class="line"><span class="comment">//	fs.readFile('文件路径',function(error,dada)&#123;</span></span><br><span class="line">	</span><br><span class="line"><span class="comment">//&#125;)</span></span><br><span class="line"><span class="comment">//成功</span></span><br><span class="line"><span class="comment">//     data 数据   error  null</span></span><br><span class="line"><span class="comment">//失败</span></span><br><span class="line"><span class="comment">//     data undefinde  error  null</span></span><br><span class="line">fs.readFile(<span class="string">'./hellow.txt'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">error,data</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(data)&#123;</span><br><span class="line">		<span class="built_in">console</span>.log(data.toString())<span class="comment">//data是二进制数，所以要通过toString转换成字符串</span></span><br><span class="line">	&#125;<span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="built_in">console</span>.log(<span class="string">'未读取成功'</span>,error)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//2.写文件</span></span><br><span class="line"><span class="comment">//fs.writeFile('路径'，'内容',function(error)&#123;</span></span><br><span class="line"><span class="comment">//&#125;)</span></span><br><span class="line"><span class="comment">//成功</span></span><br><span class="line"><span class="comment">// 文件写入成功  error null</span></span><br><span class="line"><span class="comment">//失败</span></span><br><span class="line"><span class="comment">//  文件写入失败 error 错误对象</span></span><br><span class="line"><span class="keyword">var</span> fs =<span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line">fs.writeFile(<span class="string">'./你好.md'</span>,<span class="string">'你好，这是我写入的md文件'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">error</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(!error)&#123;</span><br><span class="line">		<span class="built_in">console</span>.log(<span class="string">'写入成功'</span>)</span><br><span class="line">	&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="built_in">console</span>.log(<span class="string">'写入失败'</span>)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<hr>
+<h3 id="2-创建服务器"><a href="#2-创建服务器" class="headerlink" title="2.创建服务器"></a>2.创建服务器</h3><hr>
+<h4 id="2-1加载http模块"><a href="#2-1加载http模块" class="headerlink" title="2.1加载http模块"></a>2.1加载http模块</h4><p>创建一个server服务器，服务器提供对数据的服务。</p>
+<ul>
+<li>服务器服务流程<ul>
+<li>前端向服务器发请求</li>
+<li>服务器接收请求</li>
+<li>处理请求</li>
+<li>反馈请求</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);<span class="comment">//引入服务器模块</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server=http.createServer();<span class="comment">//创建服务器</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//Request是客户端发送的一些请求信息，比如路径等</span></span><br><span class="line"><span class="comment">//Response响应对象，可以给用户发送响应信息</span></span><br><span class="line">server.on(<span class="string">'request'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">Request,Response</span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">"服务器被请求了"</span>,Request.url)</span><br><span class="line">	<span class="keyword">var</span> outPut=&#123;<span class="attr">a</span>:<span class="string">'222'</span>,<span class="attr">b</span>:<span class="string">'333'</span>&#125;;</span><br><span class="line">	<span class="keyword">switch</span>(Request.url)&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">'/hello'</span>:</span><br><span class="line">		outPut.a=<span class="string">'hello'</span></span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">'/login'</span>:</span><br><span class="line">		outPut.a=<span class="string">'登录'</span>;</span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">'/register'</span>:</span><br><span class="line">		outPut.a=<span class="string">'register'</span>;</span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">		outPut.a=<span class="string">'默认值'</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//Response.write('ssss')可以使用多次，但是必须end</span></span><br><span class="line">	<span class="built_in">console</span>.log(outPut)</span><br><span class="line">	Response.end(<span class="built_in">JSON</span>.stringify(outPut));</span><br><span class="line">&#125;)<span class="comment">//监听服务器请求</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//启动服务器，并创建5000端口号</span></span><br><span class="line">server.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'服务器启动成功了'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>运行命令node httpCreate.js命令行进入监听状态，当用浏览器访问<code>locahost:5000</code>时，命令行打印出服务器被请求</p>
+<p>命令行：</p>
+<p><img src="http://pvjq3azwj.bkt.clouddn.com/blog/20190828/qQtrRBdxBJ01.png?imageslim" alt="mark"></p>
+<p>浏览器：</p>
+<p><img src="http://pvjq3azwj.bkt.clouddn.com/blog/20190828/NY34oACrwqgo.png?imageslim" alt="mark"></p>
+<h4 id="2-2核心模块"><a href="#2-2核心模块" class="headerlink" title="2.2核心模块"></a>2.2核心模块</h4><p>Nodejs提供了很多服务器级别的核心模块，比如<code>fs</code>操作文件模块，<code>http</code>服务器构建模块，<code>path</code>路径操作模块,<code>os</code>操作系统信息模块</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> fs=<span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"><span class="keyword">var</span> http=<span class="built_in">require</span>(<span class="string">'http'</span>);</span><br><span class="line"><span class="keyword">var</span> os =<span class="built_in">require</span>(<span class="string">'os'</span>);</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-3-简单的模块化"><a href="#2-3-简单的模块化" class="headerlink" title="2.3 简单的模块化"></a>2.3 简单的模块化</h4><p>执行<code>node a.js</code></p>
+<p><img src="http://pvjq3azwj.bkt.clouddn.com/blog/20190828/Xv2iiugQ55FH.png?imageslim" alt="mark"></p>
+<p>在node中没有全局作用域，只有模块作用域，内部访问不到外部，外部访问不到内部</p>
+<p><strong>require用于加载模块,exports用于导出模块</strong></p>
+<p>a.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> b=<span class="built_in">require</span>(<span class="string">'./b'</span>)<span class="comment">//.js后缀名可以省略</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'add'</span>,b.add(<span class="number">10</span>,<span class="number">20</span>));</span><br></pre></td></tr></table></figure>
+
+<p>b.js</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">exprots.add=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a+b</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>node a.js</code>  //add 30</p>
+<h4 id="2-4-端口号和ip的概念"><a href="#2-4-端口号和ip的概念" class="headerlink" title="2.4 端口号和ip的概念"></a>2.4 端口号和ip的概念</h4><p>所有互联网程序都需要进行网络通信,发送请求和获取请求的对象都会有自己的端口号和IP地址，这样服务器才能精准的投送请求信息给每一个请求对象，请求对象也能准确对向服务器发送请求。</p>
+<h4 id="2-5http请求内容的内容设定"><a href="#2-5http请求内容的内容设定" class="headerlink" title="2.5http请求内容的内容设定"></a>2.5http请求内容的内容设定</h4><p><code>res.setHeader()</code><strong>是设置http请求头的，其中，Conter-Type是设置当前请求的类型，其中text/plain;charset=utf-8表明，设置为普通文本形式，采用utf-8编码形式来进行解析</strong>，</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</span><br><span class="line"><span class="keyword">var</span> server=http.createServer();</span><br><span class="line">server.on(<span class="string">'request'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'请求数据'</span>)</span><br><span class="line">    <span class="keyword">var</span> url=req.url;</span><br><span class="line">    <span class="keyword">if</span>(url===<span class="string">'/plain'</span>)&#123;</span><br><span class="line">       res.setHeader(<span class="string">'Content-Type'</span>,<span class="string">'text/plain;charset=utf-8'</span>)<span class="comment">//设置请求头</span></span><br><span class="line">	res.end(<span class="string">'helloWorld解析文字'</span>)</span><br><span class="line">       &#125;</span><br><span class="line">    <span class="keyword">if</span>(url===<span class="string">'/html'</span>)&#123;</span><br><span class="line">       res.setHeader(<span class="string">'Content-Type'</span>,<span class="string">'text/html;charset=utf-8'</span>)<span class="comment">//值得注意的是，当要使网页显示出html标签却存在中文时，也必须设置请求头类型</span></span><br><span class="line">        res.end(<span class="string">'&lt;p&gt;hello&lt;a href=""&gt;点我&lt;/a&gt;&lt;/p&gt;'</span>)</span><br><span class="line">       &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">server.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'服务器启动了'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-6其他类型设置"><a href="#2-6其他类型设置" class="headerlink" title="2.6其他类型设置"></a>2.6其他类型设置</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http=<span class="built_in">require</span>(<span class="string">'http'</span>);</span><br><span class="line"><span class="keyword">var</span> fs=<span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server=http.createServer();</span><br><span class="line">server.on(<span class="string">'request'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">var</span> url=req.url;</span><br><span class="line">	<span class="keyword">if</span>(url===<span class="string">'/html'</span>)&#123;</span><br><span class="line">		fs.readFile(<span class="string">'./resource/home.html'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">error,data</span>)</span>&#123;</span><br><span class="line">			<span class="keyword">if</span>(error)&#123;</span><br><span class="line">				<span class="built_in">console</span>.log(<span class="string">'出错了'</span>)</span><br><span class="line">			&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">				<span class="built_in">console</span>.log(<span class="string">'=====&gt;'</span>)</span><br><span class="line">				res.setHeader(<span class="string">'Content-Type'</span>,<span class="string">'Text/html;charset=utf-8'</span>)</span><br><span class="line">				res.end(data)</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;<span class="keyword">else</span> <span class="keyword">if</span>(url===<span class="string">'/img'</span>)&#123;</span><br><span class="line">		fs.readFile(<span class="string">'./resource/img.jpg'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">error,data</span>)</span>&#123;</span><br><span class="line">			<span class="built_in">console</span>.log(<span class="string">'进来了'</span>)</span><br><span class="line">			<span class="keyword">if</span>(error)&#123;</span><br><span class="line">				<span class="built_in">console</span>.log(<span class="string">'出错了'</span>)</span><br><span class="line">			&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">				res.setHeader(<span class="string">'Content-Type'</span>,<span class="string">'image/jpeg'</span>)<span class="comment">//不需要编码，因为我们常说的编码一般就是文字编码</span></span><br><span class="line">				res.end(data)</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br><span class="line">server.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'服务器启动'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-7-art-template的基本使用"><a href="#2-7-art-template的基本使用" class="headerlink" title="2.7 art-template的基本使用"></a>2.7 art-template的基本使用</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> template = <span class="built_in">require</span>(<span class="string">'art-template'</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> str=<span class="string">'下面是一个要替换的对象&#123;&#123;$value.name&#125;&#125;'</span>;</span><br><span class="line"><span class="keyword">var</span> replaceStr =template.render(str,&#123;</span><br><span class="line">    name:<span class="string">'王伟'</span></span><br><span class="line">&#125;)</span><br><span class="line"><span class="built_in">console</span>.log(replaceStr) <span class="comment">//下面是一个要替换的对象王伟</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2-8-表单提交重定向"><a href="#2-8-表单提交重定向" class="headerlink" title="2.8 表单提交重定向"></a>2.8 表单提交重定向</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//重定向，当客户端发现服务器响应状态码为302就会自动响应头中找location，并自动跳转</span></span><br><span class="line">res.statusCode=<span class="number">302</span>;</span><br><span class="line">res.setHeader(<span class="string">'Location'</span>,<span class="string">'/'</span>)</span><br><span class="line">res.end()</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="3-模块系统"><a href="#3-模块系统" class="headerlink" title="3.模块系统"></a>3.模块系统</h3><hr>
+<h4 id="3-1-什么是模块化？"><a href="#3-1-什么是模块化？" class="headerlink" title="3.1 什么是模块化？"></a>3.1 什么是模块化？</h4><ul>
+<li>文件作用域</li>
+<li>通信规则<ul>
+<li>加载require</li>
+<li>导出</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-2-CommonJs模块规范"><a href="#3-2-CommonJs模块规范" class="headerlink" title="3.2 CommonJs模块规范"></a>3.2 CommonJs模块规范</h4><p>在node中的js还有一个重要的概念，模块系统</p>
+<ul>
+<li>模块作用域</li>
+<li>使用require方法来加载模块</li>
+<li>使用exports接口对象来导出模块中的成员</li>
+</ul>
+<h5 id="3-2-1-导出exports"><a href="#3-2-1-导出exports" class="headerlink" title="3.2.1 导出exports"></a>3.2.1 导出exports</h5><ul>
+<li><p>Node中是模块作用域，默认文件所有成员只在当前文件模块生效</p>
+</li>
+<li><p>对于希望可以被其他模块访问的成员，我们就需要把这些公开的成员都挂载到exports接口对象中就可以了</p>
+<ul>
+<li><p>导出多个成员（必须在对象中）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">exports.a=<span class="number">123</span>;</span><br><span class="line">exports.b=<span class="string">'aaa'</span>;</span><br><span class="line">exports.c=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'bbbbbb'</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//返回的模块是一个对象，含多个值</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>导出单个成员（拿到的就是某个方法，字符串，数字，或对象，函数）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports=<span class="string">'hello'</span>;</span><br><span class="line"><span class="comment">//返回hello字符串</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li><p>原理解析</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> obj=&#123;&#125; </span><br><span class="line"><span class="keyword">let</span> obj2=obj; </span><br><span class="line">obj2.a=<span class="number">12</span>; </span><br><span class="line">obj.a=<span class="string">'obj'</span>;</span><br><span class="line">obj2=&#123;&#125;;<span class="comment">//在这里重新赋值变成了另一个对象，所以，obj还是obj</span></span><br><span class="line">obj2.a=<span class="number">13333</span>;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'obj'</span>,obj,<span class="string">'obj2'</span>,obj2)</span><br><span class="line"></span><br><span class="line"><span class="comment">//以上从另一个方面解释了</span></span><br><span class="line">exports=<span class="string">'aaaa'</span>;</span><br><span class="line"><span class="comment">//导出模块后，</span></span><br><span class="line">exports=&#123;&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h4 id="3-3-package-json"><a href="#3-3-package-json" class="headerlink" title="3.3 package.json"></a>3.3 package.json</h4><p>我们建立一个项目必须要有package.json（包描述文件，项目可以通过这个自动生成一个node_modules）</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">      "devDependencies": &#123;//依赖包</span><br><span class="line">    "@babel/core": "^7.5.5",</span><br><span class="line">    "@babel/plugin-proposal-class-properties": "^7.5.5",</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-4-npm命令"><a href="#3-4-npm命令" class="headerlink" title="3.4 npm命令"></a>3.4 npm命令</h4><ul>
+<li><code>npm init</code> //初始化项目<ul>
+<li><code>npm init -y</code>//跳过向导快速成</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p><code>npm install</code> //安装所有package.json里的所有未安装的包</p>
+<ul>
+<li><code>npm install 包名 --save</code> //安装指定的包，并且放到package.js依赖中</li>
+</ul>
+</li>
+<li><p><code>npm uninstall --save</code> //删除包，并且删除依赖信息，不想删除依赖信息可以去除–save</p>
+</li>
+</ul>
+<hr>
+<h3 id="4-Express"><a href="#4-Express" class="headerlink" title="4. Express"></a>4. Express</h3><hr>
+<p>原生的http在某些方面表现不足以应对我们开发需求，所以我们就需要用框架来加快我们的开发效率，框架的目的就是提高效率，让我们代码高度统一</p>
+<ul>
+<li><p>hello world</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> express =<span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//公开指定目录,这样做就可以直接通过/public/xx的方式访问到public里面的所有资源,注意express.static('./这个点要加上')，app.use('浏览器访问的目录',express.static('根据浏览器访问的目录公开服务器目录'))</span></span><br><span class="line">app.use(<span class="string">'/public'</span>,express.static(<span class="string">'./public/'</span>))</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	<span class="comment">//相当于res.end(),并且不用关心转码的问题</span></span><br><span class="line">    <span class="built_in">console</span>.log(req.query)<span class="comment">//可以直接拿到query不用引url包来解析了</span></span><br><span class="line">	res.send(<span class="string">'hello world'</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">//启动服务器，并制定端口地址,通过node app.js开启服务</span></span><br><span class="line">app.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'app is running at port 3000'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<h4 id="4-1-Nodejs的热更新"><a href="#4-1-Nodejs的热更新" class="headerlink" title="4.1 Nodejs的热更新"></a>4.1 Nodejs的热更新</h4><p>通过npm下载一个第三方命令行工具，nodemon来帮助频繁的修改代码重启服务器问题，nodemon是基于node.js开发的一个第三方命令行工具，我们使用的时候要独立安装</p>
+<p><code>npm install --global nodemon</code></p>
+<p>安装完毕以后，使用</p>
+<p><code>nodemon app.js</code>来启动服务，当用nodemon启动服务，代码更改后服务器会监视到然后自动重启服务</p>
+<h4 id="4-2-基本路由"><a href="#4-2-基本路由" class="headerlink" title="4.2 基本路由"></a>4.2 基本路由</h4><p>路由器</p>
+<ul>
+<li>请求方法</li>
+<li>请求路径</li>
+<li>请求函数</li>
+</ul>
+<p>get:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'hellow world'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>post:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">app.post(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'get a post requst'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-3-静态服务"><a href="#4-3-静态服务" class="headerlink" title="4.3 静态服务"></a>4.3 静态服务</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">app.use(express.static(<span class="string">'public'</span>))<span class="comment">//公开某个文件，只要浏览器请求文件在public中存在，则直接访问，不用在地址中写入public</span></span><br><span class="line"></span><br><span class="line">app.use(<span class="string">'/public'</span>,express.static)<span class="comment">//与上述相反，文件名前必须含有/public/该文件才可以被访问</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="4-4-express-art-template"><a href="#4-4-express-art-template" class="headerlink" title="4.4 express-art-template"></a>4.4 express-art-template</h4><p><strong>安装</strong>：</p>
+<p><code>npm i --save art-template express-art-template</code></p>
+<p><strong>使用</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//配置express-art-template</span></span><br><span class="line"><span class="comment">//html表示在views中的所有带后缀名为.html的文件，都可以被解析</span></span><br><span class="line">app.engine(<span class="string">'html'</span>,<span class="built_in">require</span>(<span class="string">'express-art-template'</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">//使用</span></span><br><span class="line"><span class="comment">//设置404.html后，express会自动到views目录中找到这个文件然后进行操作</span></span><br><span class="line">app.get(<span class="string">'/art'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">    res.render(<span class="string">'404.html'</span>,&#123;</span><br><span class="line">        name:<span class="string">'这是替换的字符串'</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-5-重写评论"><a href="#4-5-重写评论" class="headerlink" title="4.5 重写评论"></a>4.5 重写评论</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> template = <span class="built_in">require</span>(<span class="string">'art-template'</span>);</span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express();</span><br><span class="line"><span class="keyword">var</span> fs=<span class="built_in">require</span>(<span class="string">'fs'</span>);</span><br><span class="line"><span class="keyword">var</span> Mock=<span class="built_in">require</span>(<span class="string">'mockjs'</span>);</span><br><span class="line"><span class="keyword">var</span> Random = Mock.Random;</span><br><span class="line"><span class="keyword">var</span> day = <span class="built_in">require</span>(<span class="string">'dayjs'</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Random.csentence(<span class="number">6</span>, <span class="number">15</span>)</span><br><span class="line">Random.date( <span class="string">'yyyy-MM-dd'</span> )</span><br><span class="line">Random.cname()</span><br><span class="line"><span class="keyword">var</span> mockData=Mock.mock(&#123;</span><br><span class="line">	<span class="string">"comments|1-10"</span>: [</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="string">'name'</span>:<span class="string">'@cname'</span>,</span><br><span class="line">		<span class="string">'content'</span>:<span class="string">'@csentence'</span>,</span><br><span class="line">		<span class="string">'date'</span>:<span class="string">'@date("yyyy-MM-dd")'</span></span><br><span class="line">	&#125;</span><br><span class="line">	]</span><br><span class="line">&#125;)</span><br><span class="line">app.use(<span class="string">'/views/'</span>,express.static(<span class="string">'./views'</span>))</span><br><span class="line">app.use(<span class="string">'/public/'</span>,express.static(<span class="string">'./public'</span>))</span><br><span class="line"><span class="comment">//配置使用art-template模板引擎</span></span><br><span class="line"><span class="comment">//第一个参数表示，当渲染以.art结尾的文件时，使用art-template模板引擎，express-art-template是专门用来吧express中把art-template整合到express中</span></span><br><span class="line"><span class="comment">//虽然外面不需要art-template，但是必须安装，原因是express-art-remplate依赖了art-template</span></span><br><span class="line">app.engine(<span class="string">'html'</span>,<span class="built_in">require</span>(<span class="string">'express-art-template'</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">//Express为response响应的提供了一个render方法，render方法默认不能使用，但是当配置了模板引擎就能够启用</span></span><br><span class="line"><span class="comment">//格式:res.render('html模板名',&#123;模板数据&#125;)</span></span><br><span class="line"><span class="comment">//第一个参数不能写路径，默认会去项目中的views目录查找改模板文件也就是说express有一个约定：开发文件都放到views目录中</span></span><br><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	res.render(<span class="string">'index.html'</span>,&#123;</span><br><span class="line">		comments:mockData.comments</span><br><span class="line">	&#125;)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/comment'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	mockData.comments.push(&#123;</span><br><span class="line">		name:req.query.name,</span><br><span class="line">		content:req.query.message,</span><br><span class="line">		date:day().format(<span class="string">'YYYY-MM-DD'</span>) </span><br><span class="line">	&#125;)</span><br><span class="line"></span><br><span class="line">	<span class="comment">// res.statusCode=302;</span></span><br><span class="line">	<span class="comment">// res.setHeader('Location','/')</span></span><br><span class="line">	<span class="comment">// res.end()</span></span><br><span class="line">	<span class="comment">//简写重定向</span></span><br><span class="line">	res.redirect(<span class="string">'/'</span>)</span><br><span class="line">	</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">	fs.readFile(<span class="string">'./public/html/index.html'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">error,data</span>)</span>&#123;</span><br><span class="line">		<span class="keyword">if</span>(error)&#123;</span><br><span class="line">			res.send(<span class="string">'请求失败'</span>)</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">			res.end(data)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">app.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'runing....'</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-6处理post请求"><a href="#4-6处理post请求" class="headerlink" title="4.6处理post请求"></a>4.6处理post请求</h4><p><strong>使用前准备:</strong>使用post请求前先配置一个中间件，用于解析浏览器传入参数</p>
+<p><code>npm i --save body-parser</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bodyParser = <span class="built_in">require</span>(<span class="string">'body-parser'</span>);</span><br><span class="line"></span><br><span class="line">c</span><br><span class="line">app.post(<span class="string">'commente'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(req.body)<span class="comment">//此时的body就是浏览器post的请求参数</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2019/08/28/nodejs学习笔记/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2019/08/28/nodejs学习笔记/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"./live2d_models/haruna/22/model.2017.school.json"},"display":{"position":"right","width":250,"height":500,"hOffset":-55,"vOffset":-50},"mobile":{"show":true},"react":{"opacity":0.7},"dialog":{"enable":true},"log":false});</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"./live2d_models/haruna/22/model.2017.school.json"},"display":{"position":"right","width":250,"height":500,"hOffset":-55,"vOffset":-50},"mobile":{"show":true},"react":{"opacity":0.7},"dialog":{"enable":true},"log":false});</script></body>
+
+
+
+ 	
+</html>
