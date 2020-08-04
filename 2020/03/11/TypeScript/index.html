@@ -106,7 +106,7 @@
 	            <a href="#s1">归档</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="archive-link" href="/archives/2020/04/">四月 2020</a></li><li><a class="archive-link" href="/archives/2020/03/">三月 2020</a></li><li><a class="archive-link" href="/archives/2019/10/">十月 2019</a></li><li><a class="archive-link" href="/archives/2019/08/">八月 2019</a></li><li><a class="archive-link" href="/archives/2019/07/">七月 2019</a>
+	                        <a class="archive-link" href="/archives/2020/07/">七月 2020</a></li><li><a class="archive-link" href="/archives/2020/04/">四月 2020</a></li><li><a class="archive-link" href="/archives/2020/03/">三月 2020</a></li><li><a class="archive-link" href="/archives/2019/10/">十月 2019</a></li><li><a class="archive-link" href="/archives/2019/08/">八月 2019</a></li><li><a class="archive-link" href="/archives/2019/07/">七月 2019</a>
 	                    </li></ul>
 	        </li>
 	        
@@ -290,8 +290,14 @@
 <li><p>abstract抽象类</p>
 <figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">abstract</span> <span class="keyword">class</span> Graph&#123;</span><br><span class="line">    <span class="comment">//这里必须表面方法中可以传入任何参数</span></span><br><span class="line">    <span class="keyword">abstract</span> area(...params: <span class="built_in">any</span>[]):<span class="built_in">number</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> Square <span class="keyword">extends</span> Graph&#123;</span><br><span class="line">   area(w:<span class="built_in">number</span>,h:<span class="built_in">number</span>)&#123;</span><br><span class="line">    <span class="keyword">return</span> w * h;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// static aa(name:string)&#123;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> square = <span class="keyword">new</span> Square()</span><br><span class="line">square.area(<span class="number">1</span>,<span class="number">2</span>)</span><br></pre></td></tr></table></figure>
 
+
+
 </li>
 </ul>
+<h3 id="13-in运算"><a href="#13-in运算" class="headerlink" title="13.in运算"></a>13.in运算</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> name = &#123;<span class="attr">a</span>:<span class="string">'Tome'</span>,<span class="attr">b</span>:<span class="string">'Bob'</span>&#125;</span><br><span class="line"><span class="string">'a'</span> <span class="keyword">in</span> name <span class="comment">//ture</span></span><br><span class="line"><span class="string">'c'</span> <span class="keyword">in</span> name <span class="comment">//false</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="14-申明某项参数存在"><a href="#14-申明某项参数存在" class="headerlink" title="14.申明某项参数存在"></a>14.申明某项参数存在</h3><figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">declare</span> <span class="keyword">const</span> <span class="built_in">window</span>: Window &amp; &#123; webkit: <span class="built_in">any</span>, append: <span class="built_in">any</span> &#125;;</span><br><span class="line"><span class="built_in">window</span>.webkit()</span><br></pre></td></tr></table></figure>
+
 
             </div>
 

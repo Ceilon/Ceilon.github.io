@@ -106,7 +106,7 @@
 	            <a href="#s1">归档</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="archive-link" href="/archives/2020/04/">四月 2020</a></li><li><a class="archive-link" href="/archives/2020/03/">三月 2020</a></li><li><a class="archive-link" href="/archives/2019/10/">十月 2019</a></li><li><a class="archive-link" href="/archives/2019/08/">八月 2019</a></li><li><a class="archive-link" href="/archives/2019/07/">七月 2019</a>
+	                        <a class="archive-link" href="/archives/2020/07/">七月 2020</a></li><li><a class="archive-link" href="/archives/2020/04/">四月 2020</a></li><li><a class="archive-link" href="/archives/2020/03/">三月 2020</a></li><li><a class="archive-link" href="/archives/2019/10/">十月 2019</a></li><li><a class="archive-link" href="/archives/2019/08/">八月 2019</a></li><li><a class="archive-link" href="/archives/2019/07/">七月 2019</a>
 	                    </li></ul>
 	        </li>
 	        
@@ -200,6 +200,8 @@
 
 <p><strong>14、删除对象中的空属性</strong></p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> newWork = &#123;<span class="attr">a</span>:<span class="string">'2'</span>,<span class="attr">b</span>:<span class="string">''</span>,<span class="attr">c</span>:<span class="string">''</span>,<span class="attr">d</span>:<span class="string">'1'</span>&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i <span class="keyword">in</span> newWork)&#123;</span><br><span class="line">      <span class="keyword">if</span>(newWork[i]===<span class="string">''</span>)&#123;</span><br><span class="line">        <span class="keyword">delete</span> newWork[i]</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="built_in">console</span>.log(newWork)<span class="comment">//&#123;a:'2',d:'1'&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="15-解构赋值生成对象并命名"><a href="#15-解构赋值生成对象并命名" class="headerlink" title="15.解构赋值生成对象并命名"></a>15.解构赋值生成对象并命名</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[a,b]=<span class="string">'123,456'</span>.split(<span class="string">','</span>)</span><br><span class="line"><span class="built_in">console</span>.log(&#123;a,b&#125;)<span class="comment">// &#123;a: "123", b: "456"&#125;</span></span><br></pre></td></tr></table></figure>
 
 
             </div>
